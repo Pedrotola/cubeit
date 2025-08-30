@@ -28,4 +28,3 @@ jobs:
                 sleep 5
                 cd ..
                 pytest -v
-                kill
