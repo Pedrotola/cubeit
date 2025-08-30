@@ -25,5 +25,7 @@ jobs:
               run: |
                 cd cubeit
                 pytest -m http-server 8000 &
+                sleep 5
                 cd ..
                 pytest -v
+                kill
